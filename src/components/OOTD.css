@@ -1,0 +1,95 @@
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    margin: 30px 550px;
+    border: 2px solid grey;
+    border-radius: 25px;
+  }
+  
+  .ootd-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    width: 90%;
+    background-color: white;
+  }
+  
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0;
+    
+  }
+  
+  .header-logo img {
+    height: 50px;
+  }
+  
+  .header-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-icons button {
+    border: none;
+    background: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .header-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 20px;
+  }
+  
+  .header-search input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .header-search button {
+    padding: 5px;
+    margin-left: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .header-title {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .scroll-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 400px;
+    padding: 10px;
+  }
+  
+  .user-post {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .user-post img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+  }
+ 

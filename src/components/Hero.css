@@ -1,0 +1,51 @@
+/* Add styles for Hero component here */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .hero-image-container {
+    flex: 0 0 70%; /* Takes 60% of the width */
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+  
+  .hero-text {
+    flex: 0 0 30%; /* Takes 40% of the width */
+    padding: 20px;
+    color: #333;
+    text-align: left;
+    padding-left: 50px;
+  }
+  
+  .brand-logo {
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  
+  .discount {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .explore {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+.container-heading {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: larger;
+    font-stretch: ultra-expanded;
+}

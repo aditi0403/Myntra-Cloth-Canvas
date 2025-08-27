@@ -1,0 +1,90 @@
+/* Navbar.css */
+
+/* General Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff3e6c;
+}
+
+.myntra {
+    margin-top: 10px;
+    height: 60px;
+    width: 90px;
+}
+
+/* Navigation links styling */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+    position: relative;
+    margin: 0 0.2rem;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.new-label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(209, 25, 126);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    margin-top: 2px;
+}
+
+/* Search bar styling */
+.search-bar {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-bar input {
+    background-color: #f1ececf9;
+    width: 100%; /* Full width of the search bar */
+    padding: 8px 12px;
+    padding-left: 30px; /* Space for the search icon */
+    border: 2px solid #ece6e6e5;
+    border-radius: 4px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    color: #626060;
+}
+
+/* Icons styling */
+.nav-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
