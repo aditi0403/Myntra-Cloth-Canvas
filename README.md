@@ -82,7 +82,3 @@ This project aims to:
 ## Contributing
 
 Contributions are welcome! Please open issues or submit pull requests for improvements, new features, or bug fixes.
-
-## License
-
-This project is licensed under the MIT License.
